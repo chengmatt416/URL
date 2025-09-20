@@ -2,5 +2,6 @@
   "abcd": "https://www.example.com/long-url",
   "gh": "https://github.com/",
   "yt": "https://youtube.com/",
-  "as": "https://drive.google.com/file/d/1wjaHSuAXlhMSSFpgd7iVDjYLUaPoLQyb/view?usp=drivesdk"
+  "as": "https://drive.google.com/file/d/1wjaHSuAXlhMSSFpgd7iVDjYLUaPoLQyb/view?usp=drivesdk",
+  "cls": "https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fclassroom.google.com&passive=true"
 }
