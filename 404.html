@@ -8,7 +8,7 @@
       const path = window.location.pathname.split('/').pop();
       if (path && path !== "index.html" && path !== "404.html") {
         try {
-          const response = await fetch("/URL/urls.json");
+          const response = await fetch("/urls.json");
           const map = await response.json();
           if (map[path]) {
             window.location.href = map[path];
