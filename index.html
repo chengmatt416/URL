@@ -139,7 +139,7 @@
 
     // --- Load urls.json and render table ---
     const repoPath = window.location.pathname.split('/')[1] || 'URL';
-    const jsonUrl = `/${repoPath}/urls.json`;
+    const jsonUrl = `/urls.json`;
     const tableBody = document.querySelector('#urlTable tbody');
     let urlMap = {}, allRows = [];
     function renderTable(filter='') {
