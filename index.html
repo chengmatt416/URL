@@ -94,7 +94,7 @@
 
     // --- File Download Section ---
     const repoPath = window.location.pathname.split('/')[1] || 'URL';
-    const filesJsonUrl = `/${repoPath}/files.json`;
+    const filesJsonUrl = `/files.json`;
     const fileTableBody = document.querySelector('#fileTable tbody');
     let fileMap = {}, fileRows = [];
     function renderFileTable(filter='') {
